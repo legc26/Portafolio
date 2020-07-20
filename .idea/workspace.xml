@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:github" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6736f9a6-e913-44cb-b169-1e5873b7d021" name="Default Changelist" comment="commit4">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="legc26" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="html" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/legc26/Portafolio.git" />
+        <option value="https://github.com/legc26/html.git" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1evbfUPYYHOB1TYIRp1fLXQdQ0C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6736f9a6-e913-44cb-b169-1e5873b7d021" name="Default Changelist" comment="" />
+      <created>1595205117044</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1595205117044</updated>
+      <workItem from="1595205127072" duration="5121000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit1">
+      <created>1595206464607</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595206464607</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit2">
+      <created>1595210619164</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595210619164</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit3">
+      <created>1595212178897</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595212178897</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit1" />
+    <MESSAGE value="commit2" />
+    <MESSAGE value="commit3" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="315" y="40" key="CommitChangelistDialog2" timestamp="1595212325660">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="315" y="40" key="CommitChangelistDialog2/0.40.1366.728/1366.40.1366.728@0.40.1366.728" timestamp="1595212325660" />
+    <state x="315" y="40" key="CommitChangelistDialog2/0.40.1366.728@0.40.1366.728" timestamp="1595206462036" />
+    <state x="496" y="274" key="Github.CreatePullRequestDialog" timestamp="1595206264634">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="496" y="274" key="Github.CreatePullRequestDialog/0.40.1366.728@0.40.1366.728" timestamp="1595206264634" />
+    <state x="546" y="305" key="Github.Dialog.Accounts.Choose" timestamp="1595206298249">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="546" y="305" key="Github.Dialog.Accounts.Choose/0.40.1366.728@0.40.1366.728" timestamp="1595206298249" />
+    <state x="494" y="289" key="Github.ShareDialog" timestamp="1595205339217">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="494" y="289" key="Github.ShareDialog/0.40.1366.728@0.40.1366.728" timestamp="1595205339217" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2" timestamp="1595212204418">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728/1366.40.1366.728@0.40.1366.728" timestamp="1595212204418" />
+    <state x="275" y="137" key="Vcs.Push.Dialog.v2/0.40.1366.728@0.40.1366.728" timestamp="1595206512361" />
+  </component>
+</project>
