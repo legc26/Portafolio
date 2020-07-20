@@ -87,20 +87,20 @@ cursor: pointer;
 .night{
   height: 560px;
   width: 700px;
-  background:url('./assets/background.png');  
+  background: url(/assets/background.png);
   background-size: cover;
   position: relative;
   overflow-x: hidden;
 }
-.surface{
-height: 140px;
-width: 500%;
-display: block;
-background:url('./assets/Img_02.png');
-position: absolute;
-bottom: 0;
-left: 0px;
-background-repeat: repeat-x;
+.surface {
+  height: 140px;
+  width: 500%;
+  display: block;
+  background: url(/assets/Img_02.png);
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  background-repeat: repeat-x;
 }
 
 .moveRight{
