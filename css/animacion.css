@@ -21,17 +21,17 @@ position: relative;
 }
 
 .mobile-view{
-position: absolute;
-top: 0%;
-display: none;
+    position: absolute;
+    top: 0;
+    display: none;
 }
 .mobile-view img{
 width: 100%;
 }
-.tablet-view{
- position: absolute;
- top: 0%;
- display: none;
+.tablet-view {
+    position: absolute;
+    top: 0;
+    display: none;
 }
 .tablet-view img{
 width: 100%;
@@ -93,14 +93,14 @@ cursor: pointer;
   overflow-x: hidden;
 }
 .surface {
-  height: 140px;
-  width: 500%;
-  display: block;
-  background: url(/assets/Img_02.png);
-  position: absolute;
-  bottom: 0;
-  left: 0px;
-  background-repeat: repeat-x;
+    height: 140px;
+    width: 500%;
+    display: block;
+    background: url(/assets/background.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-repeat: repeat-x;
 }
 
 .moveRight{
@@ -108,8 +108,8 @@ animation: moveRight 6s linear infinite;
 }
 
 @keyframes moveRight{
-100%{
-  transform: translateX(-2950px);
+100% {
+    transform: translateX(-2950);
 }
 }
 

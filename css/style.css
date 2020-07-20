@@ -79,16 +79,6 @@
   opacity: 1;
 }
 
-.row-icon h4{
-  transform: translate(-10px, 10px);
-  background: rgba(0,0,0,0.6);
-  height: 20px;
-  font-weight: 300;
-  padding: 2px 2px;
-  color: white;
-  border-radius: 5px;
-}
-
 .row-icon label{
   font-size: 40px;
 }
