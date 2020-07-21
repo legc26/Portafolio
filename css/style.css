@@ -674,7 +674,7 @@ section.padding-60 {
 .timeline-line {
   position: absolute;
   top: 0px;
-  left: calc(20% + 2px);
+  left: calc(20% + 4px);
   bottom: 0px;
   width: 1px;
   background: #FF5959;
@@ -726,7 +726,7 @@ section.padding-60 {
   border-radius: 100%;
   padding: 4.5px;
   top: 15%;
-  right: -8px;
+  right: -10px;
   z-index: 1;
 }
 
