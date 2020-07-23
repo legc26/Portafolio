@@ -264,20 +264,10 @@ $(function(){
         }
     });
 
-    $('#return-to-top').on('click', function() {      // When arrow is clicked
+    $('#return-to-top').on('click', function () {      // When arrow is clicked
         $('body,html').animate({
-            scrollTop : 0                       // Scroll to top of body
+            scrollTop: 0                       // Scroll to top of body
         }, 400);
     });
-/*==========================================================================
-//                           Links
-============================================================================*/                              
-    
-    $(window).scroll(function() {
-      if ($(this).scrollTop() >= 250) {        // If page is scrolled more than 50px
-          $('#plus').fadeIn(200);    // Fade in the arrow
-      } else {
-          $('#plus').fadeOut(200);   // Else fade out the arrow
-      }
-  });
+
 });

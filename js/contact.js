@@ -1,46 +1,64 @@
-$(function () {
-    "use strict";
+const name = document.getElementById('InputName')
+const email = document.getElementById('InputEmail');
+const asunto = document.getElementById('InputSubject');
+const mensaje = document.getElementById('InputMessage');
+const formularioEnviar = document.getElementById('contact-form');
+const btnEnviar = document.getElementById('BOTON1');
+eventListeners();
 
-    // init the validator
-    // validator files are included in the download package
-    // otherwise download from http://1000hz.github.io/bootstrap-validator
+function eventListeners() {
+    document.addEventListener('DOMContentLoaded', inicioApp);
 
-    $('#contact-form').validator();
+    //campos del formulario
+    email.addEventListener('blur', validarCampo);
+    asunto.addEventListener('blur', validarCampo);
+    mensaje.addEventListener('blur', validarCampo);
+    name.addEventListener('blur', validarCampo);
+
+    //boton de enviar en el submit
+    formularioEnviar.addEventListener('submit', enviarEmail);
+}
+
+//Funciones
+function inicioApp() {
+    //desactivar btn enviar
+    btnEnviar.disabled = true;
+}
+
+//Cuando se envia el correo
+
+function enviarEmail(e) {
+
+    const spinnerGif = document.querySelector('#spinner');
+    spinnerGif.style.display = 'block';
 
 
-    // when the form is submitted
-    $('#contact-form').on('submit', function (e) {
+    const enviado = document.createElement('img');
+    enviado.src = 'images/mail.gif';
+    enviado.style.display = 'block';
 
-        // if the validator does not prevent form submit
-        if (!e.isDefaultPrevented()) {
-            var url = "form/contact.php";
+//ocultar spinner y mostrar gif de enviado
+    setTimeout(function () {
+        spinnerGif.style.display = 'none';
 
-            // POST values in the background the the script URL
-            $.ajax({
-                type: "POST",
-                url: url,
-                data: $(this).serialize(),
-                success: function (data)
-                {
-                    // data = JSON object that contact.php returns
+        document.querySelector('#loaders').appendChild(enviado);
 
-                    // we recieve the type of the message: success x danger and apply it to the 
-                    var messageAlert = 'alert-' + data.type;
-                    var messageText = data.message;
+        setTimeout(function () {
+            enviado.remove();
+            formularioEnviar.reset();
+        }, 5000);
+    }, 3000);
 
-                    // let's compose Bootstrap alert box HTML
-                    var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                    
-                    // If we have messageAlert and messageText
-                    if (messageAlert && messageText) {
-                        // inject the alert to .messages div in our form
-                        $('#contact-form').find('.messages').html(alertBox);
-                        // empty the form
-                        $('#contact-form')[0].reset();
-                    }
-                }
-            });
-            return false;
-        }
-    })
-});
+    e.preventDefault();
+
+}
+
+//validar que el campo tenga algo escrito
+function validarCampo() {
+
+    validarLongitud(this);
+
+    //validar email
+    if (this.type === 'email') {
+        validarEmail(this);
+    }
