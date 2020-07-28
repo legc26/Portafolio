@@ -1666,14 +1666,24 @@ section.padding-60 {
     font-size: 36px;
   }
 
+  #btnGroupDrop1 {
+    margin-top: 10px;
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    z-index: 100;
+  }
 
 }
+
 @media only screen and (max-height: 610px) {
   header.left {
     height: calc(100vh - 50px);
     min-height: calc(100vh - 50px);
     max-height: calc(100vh - 50px);
   }
+
   header.left .footer {
     margin-top: 50px !important;
   }
