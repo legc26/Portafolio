@@ -22,6 +22,15 @@
 /*=============================================================*/
 /*                     BUTTON LANGUAGE                        */
 /*=============================================================*/
+#flotante {
+  position: relative;
+  z-index: 0;
+}
+
+.dropdown-menu {
+  position: relative;
+  z-index: 2;
+}
 
 /*=============================================================*/
 /*                     TOOGLE                                  */
@@ -584,8 +593,8 @@ main.content.push {
 section {
   border-radius: 20px;
   position: relative;
-  overflow: hidden;
   margin-top: 50px;
+  z-index: 0;
 }
 section.white-bg {
   background: #FFF;
