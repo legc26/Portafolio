@@ -20,6 +20,10 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i&display=swap&subset=cyrillic-ext");
 /*=============================================================*/
+/*                     BUTTON LANGUAGE                        */
+/*=============================================================*/
+
+/*=============================================================*/
 /*                     TOOGLE                                  */
 /*=============================================================*/
 input[type="checkbox"] {
@@ -86,6 +90,7 @@ label {
   right: 14px;
   color: #fff;
 }
+
 
 /*=============================================================*/
 /*                     FOOTER                                  */
@@ -1660,6 +1665,7 @@ section.padding-60 {
   .hero .cta h1 {
     font-size: 36px;
   }
+
 
 }
 @media only screen and (max-height: 610px) {
